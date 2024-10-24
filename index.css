@@ -308,3 +308,138 @@ nav ul li:first-child {
     object-fit: cover;
     border-radius: 18px;
 }
+
+.train>h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.train>p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
+
+.train {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Calculator {
+    background: #222;
+    padding: 52px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Calculator>div>h4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 52px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-collapse: collapse;
+}
+
+th {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.th-1 {
+    padding-left: 20px;
+    text-align: left;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.cal {
+    width: 50%;
+}
+
+.cal>h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.cal>p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+
+input {
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none !important;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+select {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 40px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none !important;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.activity {
+    grid-column-start: span 2;
+    margin-bottom: 34px;
+}
