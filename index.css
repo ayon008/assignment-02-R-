@@ -45,6 +45,10 @@ nav ul li:first-child {
     padding: 8px 20px;
 }
 
+nav ul li:last-child {
+    display: none;
+}
+
 .banner {
     min-height: 100vh;
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.9) 100%);
@@ -437,6 +441,7 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;
+    width: 100%;
 }
 
 .activity {
@@ -523,4 +528,106 @@ footer ul li {
     flex: 1;
     display: flex;
     justify-content: space-between;
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 40px;
+}
+
+@media screen and (max-width:576px) {
+    nav ul li {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        display: none;
+    }
+
+
+    nav ul li:last-child {
+        display: block;
+    }
+
+    .banner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .banner-text {
+        font-size: 36px;
+    }
+
+    .banner-text>i {
+        font-size: 36px;
+    }
+
+    .banner-des {
+        font-size: 16px;
+    }
+
+    .banner-box>div {
+        flex-direction: column;
+    }
+
+    .btn-grp {
+        display: flex;
+        align-items: center;
+        gap: 10px
+    }
+
+    .box-1 {
+        right: -20px;
+    }
+
+    .box-2 {
+        left: -20px;
+    }
+
+    .main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .habits {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .run {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .Calculator {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 50px;
+    }
+
+    .cal {
+        width: 100% !important;
+    }
+
+    .team {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 30px;
+    }
+
+    .footer-x {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
