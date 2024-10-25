@@ -443,3 +443,84 @@ form {
     grid-column-start: span 2;
     margin-bottom: 34px;
 }
+
+
+.team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 20px;
+}
+
+.team>img {
+    height: 272px;
+    width: 100%;
+    border-radius: 18px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.10);
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+    padding: 66px 100px;
+}
+
+.footer-parent {
+    background: black;
+}
+
+footer>div {
+    flex: 1;
+    height: 100%;
+}
+
+
+footer>div>h1 {
+    color: #E6533C;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+footer>div>p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 14px;
+    font-weight: 400;
+}
+
+footer h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.50);
+    /* P1 Main/Regular */
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+footer ul li {
+    margin-bottom: 20px;
+}
+
+.footer-x {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
